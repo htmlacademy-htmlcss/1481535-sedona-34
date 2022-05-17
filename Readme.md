@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Тимофей Сапего](https://up.htmlacademy.ru/htmlcss/34/user/1481535).
-* Наставник: `Евгений Петров`(https://github.com/LeMarck).
+* Наставник: [Евгений Петров](https://htmlacademy.ru/profile/id617077).
 
 ---
 
