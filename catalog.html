@@ -141,13 +141,38 @@
         Найдено гостиниц: 38
       </span>
       <form class="sorting-of-type" action="https://echo.htmlacademy.ru/courses" method="get">
-        <select class="select-control">
+        <select class="select-control" aria-label="Сортировка">
           <option value="cheap">
             Сначала дешёвые
           </option>
         </select>
       </form>
-      
+      <div class="button-wrapper">
+        <a class="button-cards button-curent" href="#" aria-label="Показать плиткой"></a>
+        <a class="button-slideshow" href="#" aria-label="Показать крупно"></a>
+        <a class="button-list" href="#" aria-label="Показать списком"></a>
+      </div>
+
+      <div class="hotel-card">
+        <a class="hotel-card-link" href="#">
+          <img src="hotel-card-image" alt="Отель Amara Resort & Spa">
+        </a>
+        <h3 class="hotel-card-title">
+          Amara Resort & Spa
+        </h3>
+        <div class="in-card-info">
+          <div class="in-card-info-first-column">
+            <span class="hotel-type-in-card">Гостиница</span>
+            <a class="hotel-info button-brown" href="#">Подробнее</a>
+            <div class="stars four-stars"></div>
+          </div>
+          <div class="in-card-second-column">
+            <span class="hotel-price">От 4000 ₽</span>
+            <a class="hotel-liked button-blue" href="#">в избранное</a>
+            <span class="hotel-rating">Рейтинг: 8,5</span>
+          </div>
+        </div>
+      </div>
     </section>
 
   </main>
