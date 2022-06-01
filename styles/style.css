@@ -440,11 +440,53 @@ body {
     line-height: 20px;
 
     color: #FFFFFF;
-    background: green;
+    background: #7DB54F;
     border-radius: 4px;
 
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
+}
 
+/*Пагинация*/
+.pagination {
+    list-style: none;
+    background-color: #FFFFFF;
+}
+
+.pagination-link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+    background-color: #82B3D3;
+
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.pagination-current {
+    color: #000000;
+    background-color: #F2F2F2;
+}
+
+.number-of-hotels-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #333333;
+}
+
+/*Подписка на рассылку*/
+.catalog-subscribe {
+    color: #000000;
+    background-image: none;
+    background-color: #FFFFFF;
+}
+
+.subscribe-description--catalog {
+    color: #333333;
 }
