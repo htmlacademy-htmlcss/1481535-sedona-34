@@ -34,6 +34,7 @@ body {
 }
 
 .navigation-link {
+    font: inherit;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
@@ -44,6 +45,7 @@ body {
 }
 
 .navigation-link--button {
+    font: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -156,7 +158,7 @@ body {
 .second-advantage {
     text-align: center;
     color: #FFFFFF;
-    background: #82B3D3;
+    background-color: #82B3D3;
 }
 
 .advantages-item {
@@ -229,4 +231,68 @@ body {
     text-decoration: none;
     color: #FFFFFF;
     background: #756157;
+}
+
+/*subscribe*/
+.subscribe {
+    color: #FFFFFF;
+    background: #82B3D3;
+    background-image: url("../images/background-subscribe.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+
+    text-align: center;
+}
+
+.subscribe-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    text-transform: uppercase;
+}
+
+.subscribe-description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.subscribe-button {
+    font: inherit;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background: #82B3D3;
+    border-radius: 0px 10px 10px 0px;
+}
+
+/*footer*/
+.page-footer {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.footer-social-list {
+    list-style: none;
+}
+
+.footer-contacts-phone {
+    font: inherit;
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-social-list {
+    text-align: left;
 }
