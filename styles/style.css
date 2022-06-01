@@ -195,3 +195,38 @@ body {
 .advantages-item--tourists {
     background: rgba(131, 179, 211, 0.12);
 }
+
+/*hotel-search*/
+.hotel-search {
+    color: #000000;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.hotel-search-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    text-transform: uppercase;
+}
+
+.hotel-search-description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #333333;
+    background: #FFFFFF;
+}
+.hotel-search-button {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #756157;
+}
