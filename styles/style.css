@@ -296,3 +296,74 @@ body {
 .footer-social-list {
     text-align: left;
 }
+/*catalog.html*/
+
+.inner-header {
+    color: #FFFFFF;
+    background-color: #82B3D3;
+    background-image: url("../images/background-catalog.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+}
+
+.inner-header-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+}
+/*breadcrumbs*/
+.breadcrumbs {
+    list-style: none;
+    color: #FFFFFF;
+}
+
+.breadcrumbs-link {
+    font: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.catalog-filter-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.control {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.button-blue {
+    font: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    background: #82B3D3;
+    border-radius: 4px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button-reset {
+    font: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    background-color: transparent;
+
+    text-align: center;
+}
+
+/*Результаты поиска*/
