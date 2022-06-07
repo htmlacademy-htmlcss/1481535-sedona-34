@@ -14,7 +14,15 @@
     font-display: swap;
   }
 
+html {
+    height: 100%;
+}
+
 body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-size: 24px;
@@ -23,14 +31,40 @@ body {
     background: #FFFFFF;
 }
 
+.container {
+    margin: 0 auto;
+    width: 1050px;
+}
+
+.main-container {
+    flex-grow: 1;
+}
+.page-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 /*Pages*/
 .page-header {
+    display: flex;
     color: #000000;
     background: #FFFFFF;
 }
 
+.navigation {
+    display: flex;
+}
+
 .navigation-list {
+    width: 520px;
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-user {
+    max-width: 300px;
+    margin-left: auto;
 }
 
 .navigation-link {
@@ -66,6 +100,7 @@ body {
 }
 
 .sedona-description {
+    margin: 0;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
@@ -75,6 +110,7 @@ body {
 }
 
 .sedona-description-reasons {
+    margin: 0;
     font-weight: 400;
     font-style: normal;
     font-size: 22px;
@@ -88,14 +124,28 @@ body {
 
 /*advantages*/
 .advantages-list {
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
+
+.advantages-wrapper--header {
+    width: 655px;
+    margin: 0 auto;
+}
 .advantages-wrapper {
+    display: flex;
     text-align: center;
     color: #FFFFFF;
     background: #82B3D3;
 }
+
+.advantages-wrapper--first {
+    flex-basis: 400px;
+}
+
 .advantage-name {
+    margin: 0;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -116,16 +166,22 @@ body {
 }
 
 .first-advantage-description {
+    margin: 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
 }
 /*advantages-first-list*/
 .advantages-first-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
+
 .advantages-first-name {
+    margin: 0;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -135,6 +191,7 @@ body {
 }
 
 .advantages-first-description {
+    margin: 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
