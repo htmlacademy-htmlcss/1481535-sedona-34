@@ -213,16 +213,28 @@ body {
 
 /*second-advantage*/
 .second-advantage {
+    display: flex;
+    flex-direction: row-reverse;
     text-align: center;
     color: #FFFFFF;
     background-color: #82B3D3;
 }
+
+.advantages-list--other {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 .advantages-item {
     text-align: center;
 }
 
 .advantages-name {
+    margin: 0;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -238,6 +250,7 @@ body {
 }
 
 .advantages-description {
+    margin: 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
