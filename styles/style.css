@@ -47,6 +47,7 @@ body {
 /*Pages*/
 .page-header {
     display: flex;
+    padding: 0 70px;
     color: #000000;
     background: #FFFFFF;
 }
@@ -132,6 +133,7 @@ body {
 .advantages-wrapper--header {
     width: 655px;
     margin: 0 auto;
+    padding: 63px 290px 90px 273px;
 }
 .advantages-wrapper {
     display: flex;
@@ -142,6 +144,7 @@ body {
 
 .advantages-wrapper--first {
     flex-basis: 400px;
+    padding: 92px 85px;
 }
 
 .advantage-name {
@@ -197,6 +200,16 @@ body {
     line-height: 21px;
 
     text-align: center;
+}
+
+.advantages-first-item {
+    width: 400px;
+    padding: 80px 85px;
+}
+
+.advantages-item {
+    width: 400px;
+    padding: 103px 82px;
 }
 
 .advantages-item--home {
@@ -286,6 +299,7 @@ body {
 
 .hotel-search-description {
     margin: 0;
+    padding: 29px 304px 56px;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
@@ -348,6 +362,7 @@ body {
 
 /*footer*/
 .page-footer {
+    vertical-align: center;
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
@@ -357,14 +372,33 @@ body {
     text-align: center;
 }
 
+.page-footer-container {
+    display: flex;
+    width: 1050px;
+    margin: 0 auto;
+    margin-left: 72px;
+}
+
 .footer-social-list {
+    display: flex;
+    justify-content: space-between;
+    width: 116px;
+    margin: 0;
+    margin-left: 52px;
+    padding: 0;
     list-style: none;
 }
 
 .footer-contacts-phone {
+    width: 720px;
+    margin-left: 52px;
     font: inherit;
     text-decoration: none;
     color: #000000;
+}
+
+.footer-academy-link {
+    width: 115px;
 }
 
 .footer-social-list {
@@ -555,6 +589,10 @@ body {
 }
 
 /*Подписка на рассылку*/
+
+.subscribe {
+    padding: 94px 200px;
+}
 .catalog-subscribe {
     color: #000000;
     background-image: none;
