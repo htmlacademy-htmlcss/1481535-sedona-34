@@ -14,6 +14,12 @@
     font-display: swap;
   }
 
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
 html {
     height: 100%;
 }
@@ -137,7 +143,7 @@ body {
 .advantages-wrapper--header {
     width: 655px;
     margin: 0 auto;
-    padding: 63px 290px 90px 273px;
+    
 }
 .advantages-wrapper {
     display: flex;
@@ -366,7 +372,7 @@ body {
 
 /*footer*/
 .page-footer {
-    vertical-align: center;
+    vertical-align: middle;
     font-weight: 400;
     font-size: 40px;
     line-height: 40px;
@@ -534,7 +540,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0;
-    padding: 20px;
+    padding: 0;
 
     list-style: none;
 }
@@ -674,7 +680,7 @@ body {
 /*Подписка на рассылку*/
 
 .subscribe {
-    padding: 94px 200px;
+    padding: 94px 100px;
 }
 .catalog-subscribe {
     color: #000000;
