@@ -500,7 +500,12 @@ body {
 
 /*catalog.html*/
 
+.main-inner {
+  padding-top: 30px;
+}
+
 .inner-header {
+  margin-bottom: 50px;
   padding: 35px 70px 70px 70px;
   color: #FFFFFF;
   background-color: #82B3D3;
@@ -520,12 +525,14 @@ body {
 /*breadcrumbs*/
 .breadcrumbs {
   margin: 0;
+  margin-bottom: 40px;
   padding: 0;
-  list-style: none;
+  list-style-type: none;
   color: #FFFFFF;
 }
 
 .breadcrumbs-link {
+  padding-left: 38px;
   font: inherit;
   font-weight: 400;
   font-size: 16px;
@@ -602,6 +609,13 @@ body {
 
 .search-results--flex {
   display: flex;
+  margin-bottom: 57px;
+
+}
+
+.button-cards {
+  width: 48px;
+  height: 48px;
 }
 
 .hotels-found {
@@ -623,13 +637,10 @@ body {
 
 /*Карточки товаров*/
 .hotel-card-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 
-  list-style: none;
+  list-style-type: none;
 }
 
 .hotel-card-link {
@@ -736,9 +747,15 @@ body {
 
 
 .pagination-link {
+  display: block;
+  box-sizing: border-box;
+  width: 55px;
+  height: 55px;
+  padding: 8px 9px;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  border-radius: 4px;
 
   color: #FFFFFF;
   background-color: #82B3D3;
@@ -753,7 +770,13 @@ body {
   background-color: #F2F2F2;
 }
 
+
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .number-of-hotels {
+  margin-left: auto;
   width: 386px;
 }
 
