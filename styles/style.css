@@ -50,7 +50,7 @@ body {
 }
 
 .container {
-  width: 1050px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -58,10 +58,6 @@ body {
   flex-grow: 1;
 }
 
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
-}
 
 /*Pages*/
 .page-header {
@@ -139,6 +135,10 @@ body {
   background-position: top center;
   background-size: 100% auto;
   text-align: center;
+}
+
+.welcom-image {
+  vertical-align: middle;
 }
 
 .sedona-description {
