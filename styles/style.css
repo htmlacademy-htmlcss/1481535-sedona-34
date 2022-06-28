@@ -649,6 +649,7 @@ body {
   margin-bottom: 66px;
   padding: 0;
   column-gap: 18px;
+  justify-content: center;
 
   list-style-type: none;
 }
