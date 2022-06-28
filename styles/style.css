@@ -25,7 +25,7 @@ html {
   height: 100%;
 }
 
-.img {
+img {
   max-width: 100%;
 
   object-fit: contain;
@@ -648,7 +648,7 @@ body {
   margin: 0;
   margin-bottom: 66px;
   padding: 0;
-  row-gap: 18px;
+  column-gap: 18px;
 
   list-style-type: none;
 }
