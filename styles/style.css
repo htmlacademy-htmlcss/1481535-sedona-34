@@ -641,6 +641,10 @@ body {
 
 /*breadcrumbs*/
 .breadcrumbs {
+  display: flex;
+  justify-content: space-between;
+  width: 113px;
+  position: relative;
   margin: 0;
   margin-bottom: 40px;
   padding: 0;
@@ -648,14 +652,33 @@ body {
   color: #FFFFFF;
 }
 
+.breadcrumbs-item--actions:hover,
+.breadcrumbs-item--actions:focus {
+  opacity: 0.6;
+}
+
+.breadcrumbs-item--actions:active {
+  opacity: 0.3;
+}
+
 .breadcrumbs-link {
-  padding-left: 38px;
   font: inherit;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: inherit;
   text-decoration: none;
+}
+
+.breadcrumbs-link--arrow::before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 25px;
+  width: 6px;
+  height: 8px;
+  background-image: url("../images/arrow.svg");
+  background-repeat: no-repeat;
 }
 
 /* форма */
