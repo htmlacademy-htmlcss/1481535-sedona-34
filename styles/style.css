@@ -123,12 +123,22 @@ body {
   position: relative;
 }
 
-.navigation-link--current::before {
+.navigation-link-index--current::before {
   content: "";
   position: absolute;
   bottom: 0;
   left: 17px;
   width: 68px;
+  height: 2px;
+  background-color: #756257;
+}
+
+.navigation-link-catalog--current::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 17px;
+  width: 93px;
   height: 2px;
   background-color: #756257;
 }
