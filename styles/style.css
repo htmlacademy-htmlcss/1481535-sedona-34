@@ -617,9 +617,7 @@ body {
 
 /*catalog.html*/
 
-.main-inner {
-  padding-top: 30px;
-}
+
 
 .inner-header {
   margin-bottom: 50px;
@@ -774,6 +772,35 @@ body {
 
 .sorting-of-type {
   margin-right: 80px;
+}
+
+.button-wrapper {
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+}
+
+.button-cards {
+  padding: 17px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+.button-curent {
+  border: 2px solid #000000;
+  border-radius: 4px;
+}
+
+.button-tiles {
+  background: url("../images/icon-table.svg") no-repeat center;
+}
+
+.button-slideshow {
+  background: url("../images/icon-slideshow.svg") no-repeat center;
+}
+
+.button-list {
+  background: url("../images/icon-list.svg") no-repeat center;
 }
 
 /*Карточки товаров*/
