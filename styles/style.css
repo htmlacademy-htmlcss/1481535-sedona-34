@@ -518,9 +518,15 @@ body {
   height: 14px;
 }
 
-.footer-social-link--vk:hover {
-  fill: tomato;
+.vk path:hover,
+.vk path:focus {
+  fill: #68A2CA;
 }
+
+.vk path:active {
+  opacity: 0.3;
+}
+
 
 
 .footer-social-link--telegram {
@@ -528,9 +534,27 @@ body {
   height: 17px;
 }
 
+.telegram path:hover,
+.telegram path:focus {
+  fill: #68A2CA;
+}
+
+.telegram path:active {
+  opacity: 0.3;
+}
+
 .footer-social-link--youtube {
   width: 22px;
   height: 17px;
+}
+
+.youtube path:hover,
+.youtube path:focus {
+  fill: #68A2CA;
+}
+
+.youtube path:active {
+  opacity: 0.3;
 }
 
 .footer-contacts-phone {
@@ -540,9 +564,27 @@ body {
   color: #000000;
 }
 
+.footer-contacts-phone:hover,
+.footer-contacts-phone:focus {
+  color: #756157;
+}
+
+.footer-contacts-phone:active {
+  opacity: 0.3;
+}
+
 .footer-academy-link {
   width: 115px;
   margin-left: auto;
+}
+
+.footer-academy-link:hover path,
+.footer-academy-link:focus path {
+  fill: #756157;
+}
+
+.footer-academy-link:active path {
+  opacity: 0.3;
 }
 
 .footer-social-list {
