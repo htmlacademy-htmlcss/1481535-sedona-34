@@ -708,6 +708,12 @@ body {
   cursor: pointer;
 }
 
+.button-blue--apply {
+  align-self: end;
+  padding: 14px 15px;
+
+}
+
 .subscribe-button {
   font: inherit;
   font-weight: 700;
@@ -729,10 +735,13 @@ body {
 }
 
 .button-reset {
+  align-self: flex-end;
   font: inherit;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  border: none;
+  padding: 14px 15px;
 
   color: #FFFFFF;
   background-color: transparent;
