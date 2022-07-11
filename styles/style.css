@@ -752,10 +752,6 @@ body {
 
 }
 
-.button-cards {
-  width: 48px;
-  height: 48px;
-}
 
 .hotels-found {
   margin-right: 190px;
@@ -781,15 +777,33 @@ body {
 }
 
 .button-cards {
+  width: 48px;
+  height: 48px;
   padding: 17px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
 }
 
-.button-curent {
+.button-cards:hover {
   border: 2px solid #000000;
   border-radius: 4px;
 }
+
+.button-cards:focus {
+  border: 2px solid #68A2CA;
+  border-radius: 4px;
+}
+
+.button-cards:active {
+  border: 2px solid #000000;
+  border-radius: 4px;
+}
+
+
+/* .button-curent {
+  border: 2px solid #000000;
+  border-radius: 4px;
+} */
 
 .button-tiles {
   background: url("../images/icon-table.svg") no-repeat center;
