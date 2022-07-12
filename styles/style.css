@@ -718,10 +718,11 @@ body {
 .filter-group {
   margin: 0;
   padding: 0;
+  border: 0;
 }
 
 .filter-group--facilites {
-  width: 160px;
+  width: 162px;
   margin-right: 70px;
 }
 
@@ -735,6 +736,93 @@ body {
   font-size: 20px;
   line-height: 26px;
   color: #FFFFFF;
+  width: 162px;
+  margin-bottom: 30px;
+}
+
+.catalog-filter-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.catalog-filter-item {
+  margin-bottom: 15px;
+}
+
+.catalog-filter-item:last-child {
+  margin-bottom: 0;
+}
+
+.control {
+  position: relative;
+  display: block;
+  padding-left: 40px;
+}
+
+.control-mark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+.control-mark--radio {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+
+
+
+.control-input[type="checkbox"]:hover + .control-mark,
+.control-input[type="radio"]:hover + .control-mark--radio {
+  opacity: 60%;
+}
+
+.control-input[type="checkbox"]:focus + .control-mark,
+.control-input[type="radio"]:focus + .control-mark--radio,
+.control-input[type="radio"]:focus-visible + .control-mark--radio {
+  outline: 3px solid #83b3d3;
+}
+
+.control-input[type="checkbox"]:active + .control-mark {
+  outline: none;
+  opacity: 30%;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 4px;
+
+  width: 13px;
+  height: 10px;
+
+  background-image: url("../images/check-mark.svg");
+}
+
+
+.control-input[type="radio"]:checked + .control-mark--radio::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+
+  width: 10px;
+  height: 10px;
+
+  background-color: #3f5e72;
+  border-radius: 50%;
 }
 
 .range-scale {
@@ -785,6 +873,7 @@ body {
 
 .filter-by-price {
   margin: 0;
+  margin-right: 70px;
   padding: 0;
   border: none;
 }
@@ -866,6 +955,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-top: auto;
 
 }
 
@@ -933,6 +1023,7 @@ body {
   border: none;
   border-radius: 4px;
   padding: 14px 15px;
+  padding-bottom: 0;
 
   color: #FFFFFF;
   background-color: transparent;
@@ -1201,6 +1292,7 @@ body {
   justify-content: space-between;
   border-top: 1px solid #E6E6E6;
   padding: 0 70px;
+  max-width: 1056px;
 }
 
 .pagination {
