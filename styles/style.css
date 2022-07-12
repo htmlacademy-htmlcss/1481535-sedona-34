@@ -483,7 +483,7 @@ body {
 
   font: inherit;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 21px;
 
   background-color: inherit;
   background-image: url("../images/select-arrow.svg");
@@ -507,6 +507,10 @@ body {
   color: rgba(51, 15, 15, 0.3);
 
   border-color: #e5e5e5;
+}
+
+.select-number-of-hotels {
+  width: 160px;
 }
 
 .sorting-type {
@@ -1325,7 +1329,6 @@ body {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #E6E6E6;
-  padding: 0 70px;
   max-width: 1056px;
 }
 
@@ -1371,7 +1374,11 @@ body {
 }
 
 .number-of-hotels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-left: auto;
+  margin-top: 28px;
   width: 386px;
 }
 
