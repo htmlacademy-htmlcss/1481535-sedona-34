@@ -525,6 +525,11 @@ body {
   border-radius: 10px 0px 0px 10px;
 }
 
+.subscribe-email:hover,
+.subscribe-email:focus {
+  box-shadow: inset 0 0 1px 1px #deb887;
+}
+
 /*footer*/
 .page-footer {
   padding: 40px 72px 30px;
@@ -732,6 +737,125 @@ body {
   color: #FFFFFF;
 }
 
+.range-scale {
+  position: relative;
+
+  width: 276px;
+  height: 4px;
+  margin-left: 11px;
+
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+.range-toggle {
+  position: absolute;
+
+  width: 20px;
+  height: 20px;
+
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.range-toggle:focus {
+  outline: 3px solid #83b3d3;
+}
+
+.range-toggle:active {
+  outline: 2px solid #83b3d3;
+}
+
+.toggle-min {
+  top: -8px;
+  left: -10px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -10px;
+}
+
+.filter-by-price {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.filter-type {
+  margin-bottom: 34px;
+}
+
+.filter-by-price-wrapper {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-top: 4px;
+  margin-bottom: 27px;
+
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+}
+
+.filter-by-price-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  width: 2px;
+  height: 100%;
+
+  background-color: #ffffff;
+  transform: translateX(-50%);
+}
+
+.filter-by-price-wrapper input {
+  width: 100%;
+  padding: 14px 40px 11px 16px;
+
+  font: inherit;
+  font-size: 18px;
+  color: #ffffff;
+
+  background-color: transparent;
+  border: none;
+  outline: none;
+  opacity: 1;
+}
+
+.filter-by-price-wrapper label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  background: inherit;
+}
+
+.filter-by-price-wrapper input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.filter-by-price-wrapper input::-moz-placeholder {
+  color: #ffffff;
+}
+
+.price-limit {
+  position: absolute;
+  right: 14px;
+
+  opacity: 30%;
+}
+
 .control {
   font-weight: 400;
   font-size: 18px;
@@ -807,12 +931,28 @@ body {
   font-size: 16px;
   line-height: 20px;
   border: none;
+  border-radius: 4px;
   padding: 14px 15px;
 
   color: #FFFFFF;
   background-color: transparent;
 
   text-align: center;
+  cursor: pointer;
+}
+
+.button-reset:hover {
+  opacity: 60%;
+}
+
+.button-reset:focus,
+.button-reset:focus-visible {
+  outline: 3px solid #83b3d3;
+}
+
+.button-reset:active {
+  box-shadow: none;
+  opacity: 30%;
 }
 
 /*Результаты поиска*/
