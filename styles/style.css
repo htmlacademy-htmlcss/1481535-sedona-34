@@ -120,8 +120,13 @@ body {
   text-decoration: none;
 }
 
-.navigation-link:hover,
-.navigation-link:focus {
+.navigation-link--action:hover,
+.navigation-link--action:focus {
+  text-decoration: underline;
+}
+
+.navigation-link--actions:hover,
+.navigation-link--actions:focus {
   transform: scale(1.1);
   transition: all 0.3s ease-in-out;
 }
@@ -1147,10 +1152,10 @@ body {
 }
 
 
-/* .button-curent {
+.button-current {
   border: 2px solid #000000;
   border-radius: 4px;
-} */
+}
 
 .button-tiles {
   background: url("../images/icon-table.svg") no-repeat center;
@@ -1502,14 +1507,14 @@ body {
 
 .quantity-wrapper input {
   width: 133px;
-  margin-left: 62px;
+  margin-left: 38px;
   padding: 19px 50px;
 
   text-align: center;
 }
 
 .adults-quantity {
-  margin-right: 56px;
+  margin-right: 40px;
 }
 
 .children-quantity input {
@@ -1690,7 +1695,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 
-  background-image: url("../img/svg/tooltip-arrow.svg");
+  background-image: url("../images/tooltip-arrow.svg");
 }
 
 .modal-close-button:hover,
